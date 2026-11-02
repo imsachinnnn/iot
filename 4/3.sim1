@@ -1,0 +1,13 @@
+<circuit version="1.1.0-SR2" rev="260312" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-124,-140" rotation="0" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="iot/1a/1a.ino.standard.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="AudioOut" CircId="AudioOut-4" mainComp="false" Show_id="false" Show_Val="false" Pos="48,148" rotation="0" hflip="1" vflip="1" label="AudioOut-4" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="true" Impedance="8 Ω" Frequency="1 kHz" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="AudioOut-4-lPin" endpinid="Uno-1-13" pointList="32,140,-116,140,-116,-12" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="AudioOut-4-rPin" endpinid="Uno-1-GND1" pointList="32,148,32,-52,28,-52" />
+
+</circuit>
